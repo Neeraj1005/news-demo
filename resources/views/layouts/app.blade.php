@@ -27,17 +27,17 @@
 </head>
 <body>
 
-    <x-home-header-page />
+    {{-- <x-home-header-page /> --}}
 
-    @section('header_middle')
-    {{-- Crousel part added if we call this section --}}
-    @show
+    {{-- @section('header_middle')
+
+    @show --}}
 
     @yield('content')
     
-    @include('includes.common.cookie-modal')
+    {{-- @include('includes.common.cookie-modal') --}}
     
-   <x-home-footer-page />
+   {{-- <x-home-footer-page /> --}}
 
    @livewireScripts
    <script src="{{ asset('js/home.js') }}"></script>

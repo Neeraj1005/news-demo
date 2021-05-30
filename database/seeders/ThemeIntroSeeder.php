@@ -17,7 +17,7 @@ class ThemeIntroSeeder extends Seeder
         $company_theme_intro = [
             [
                 'id' => 1,
-                'description' => 'Aynsoft Classic has been the Largest Global Software Company for more than 18 years, making it the most trusted corporation in the world.',
+                'description' => 'Classic has been the Largest Global Software Company for more than 18 years, making it the most trusted corporation in the world.',
                 'background_color' => '#00a8ff',
                 'font_color' => '#F5FBFF',
             ],
